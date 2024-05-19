@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  margin-top: 10px;
+  width: 60vw;
+  box-shadow: 5px 5px 15px black;
+  border-radius: 15px;
+  background-color: #f6ae2d;
+}
+.headings {
+  text-align: center;
+  font-family: "Poetsen One", sans-serif;
+  background-color: #f55d3e;
+  height: 100px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.headings h1 {
+  padding-top: 25px;
+  font-size: 2.5em;
+  color: aliceblue;
+  -webkit-text-stroke: 1px black;
+  text-shadow: 5px 5px 15px black;
+}
+.inp-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  background-color: #228cdb;
+}
+.input-field {
+  width: 70%;
+  height: 20%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  padding: 10px 0;
+  background-color: inherit;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  color: aliceblue;
+  padding: 10px;
+  transition: border-color 0.3s;
+}
+
+.input-field::placeholder {
+  text-align: center;
+  color: aliceblue;
+}
+.inp-cont button {
+  padding: 10px;
+  margin-left: 5px;
+  background-color: inherit;
+  border: 1px solid black;
+  outline: none;
+  font-family: Helvetica, sans-serif;
+  border-radius: 5px;
+  color: aliceblue;
+  transition: background-color ease-out 0.1s, box-shadow ease 0.3s;
+}
+.inp-cont button:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 6px 0 rgba(0, 0, 0, 0.24);
+}
+.inp-cont button:active {
+  background-color: rgba(255, 255, 255, 0.37);
+}
+.date-time {
+  height: 7vh;
+  background-color: #f6ae2d;
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  font-family: "poppins";
+}
+.contoftasks {
+  min-height: 40vh;
+  background-color: #f6ae2d;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.tasks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  box-shadow: 0px 1px 5px black;
+  margin: 15px 5px;
+  border-radius: 15px;
+  background-color: #e2fdff;
+}
+.Alltask {
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  font-size: 22px;
+  margin: 0 25px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 600;
+  text-transform: capitalize;
+  background-color: #e2fdff;
+  position: relative;
+}
+.Alltask span {
+  font-size: 0.6rem;
+  font-family: "Times New Roman", Times, serif;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+i:hover {
+  cursor: pointer;
+}
